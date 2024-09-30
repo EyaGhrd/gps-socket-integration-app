@@ -11,7 +11,7 @@ public class PacketGenerator {
 
     public Packet generatePacket() {
         Packet packet = new Packet();
-
+        // Generate Random Data
         packet.setTemprature(random.nextInt(100));
         packet.setLongitude(random.nextInt(180) - 90);
         packet.setLatitude(random.nextInt(360) - 180);
