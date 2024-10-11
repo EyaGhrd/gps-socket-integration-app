@@ -1,6 +1,6 @@
-package eniso.gte3;
+package tn.rnu.eniso.fwk;
 
-import eniso.gte3.packet.Packet;
+import tn.rnu.eniso.fwk.packet.Packet;
 
 import java.io.DataInputStream;
 import java.io.IOException;
